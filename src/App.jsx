@@ -8,7 +8,7 @@ import Footer from "./components/Footer/Footer.jsx";
 function App() {
     return (
         <>
-            <div className="app-background"> {<img src="./components/Image/F%20sitio.jpeg" alt=""/>}
+            <div className="app-background">
                 <div className="app-container">
                     <Header />
                     <div className="main-content">

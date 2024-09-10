@@ -1,4 +1,4 @@
-/*aqui coloco el fondo negro, semitranspatente y distorsion del header*/
+
 .desplegable{
     background: black;
     background: rgba(30, 30, 30, 0.6);
@@ -6,10 +6,6 @@
 
 
 }
-
-
-
-/*aqui establesco que cuando la pagina este en pantalla completa no aparescan las barras*/
 .barras{
     display: none;
 }
@@ -49,10 +45,6 @@
     display: block;
     text-align: left;
 }
-
-
-
-
 
 @media(max-width: 850px){
     .barras{
@@ -109,8 +101,6 @@
 
 }
 
-
-/*espeficiaciones celular*/
 
 @media(max-width: 500px){
 
