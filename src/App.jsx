@@ -1,8 +1,10 @@
-// eslint-disable-next-line no-unused-vars
+
 import React from 'react';
 import Header from './components/Header/Header.jsx';
 import './App.css';
 import Footer from "./components/Footer/Footer.jsx";
+
+
 function App() {
     return (
         <>
@@ -10,14 +12,15 @@ function App() {
                 <div className="app-container">
                     <Header />
                     <div className="main-content">
-                        <h2>Principal</h2>
-                        <p>que</p>
-                    </div>
-                    <Footer /> {/* Footer siempre abajo */}
-                </div>
-                </div>
-            </>
-            )
-            }
 
-            export default App;
+                        <h1 style={{color: 'yellowgreen'}}>introduccion a MOUNTAIN HEAT</h1>
+                        <p style={{color: 'lightblue'}}>en este apartado conoceras sobre este sitio web dedicado al equipamiento cordillerano</p>
+                    </div>
+                    <Footer/>
+                </div>
+            </div>
+        </>
+    )
+}
+
+export default App;

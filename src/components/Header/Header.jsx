@@ -1,4 +1,5 @@
 import "./Header.css"
+import "../Navbar/Navbar.css"
 import logo_nav from "../Image/Logo.png";
 
 
@@ -11,6 +12,7 @@ function Header_componente() {
         boton_cerrar.classList.toggle('colocar_x');
     }
     return (
+
         <header>
             <div className="barras">
                 <button onClick={abrir_cerrar_menu} className='boton_menu margen_boton' id='x'></button>
@@ -19,23 +21,29 @@ function Header_componente() {
                 <ul className="nav_lateral">
 
                     <a className="logo_barra" href="#">
-                        <img id="logo" src={logo_nav} alt="..." width="60" height="60"/>
+                        <img id="logo" src={logo_nav} alt="..." width="65" height="65"/>
 
                     </a>
+
                     <li className="estilo_lista_vacio"><p className="estilo_bloque"
-                                                          href={vacio}>mountain ahead</p></li>
+                                                          href={vacio}>MOUNTAIN HEAT</p></li>
                     <li className="estilo_lista_vacio"><a className="estilo_bloque hover padding_lateral"
                                                           href={vacio}>Inicio</a></li>
 
                     <li className="estilo_lista_vacio"><a className="estilo_bloque hover padding_lateral"
-                                                          href={vacio}>h</a></li>
+                                                          href={vacio}>Equipamiento</a></li>
                     <li className="estilo_lista_vacio"><a className="estilo_bloque hover padding_lateral"
-                                                          href={vacio}>B</a></li>
+                                                          href={vacio}>Calzado</a></li>
                     <li className="estilo_lista_vacio"><a className="estilo_bloque hover padding_lateral"
-                                                          href={vacio}>D</a></li>
+                                                          href={vacio}>Indumentaria</a></li>
                     <li className="estilo_lista_vacio"><a className="estilo_bloque hover padding_lateral"
-                                                          href={vacio}>S</a></li>
-
+                                                          href={vacio}>Ayuda</a></li>
+                    <div>
+                            <div className="navbar-search">
+                                <input type="text" placeholder="BUSCAR..."/>
+                                <button type="submit">🔍</button>
+                            </div>
+                    </div>
                 </ul>
             </nav>
         </header>

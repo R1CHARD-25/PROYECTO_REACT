@@ -4,6 +4,7 @@
     background: rgba(30, 30, 30, 0.6);
     backdrop-filter: blur(2px);
 
+
 }
 
 
@@ -13,7 +14,7 @@
     display: none;
 }
 
-/*aqui indico que el texto del header estara en lateral*/
+
 .nav_lateral{
     padding: 10px;
     margin: 10px;
@@ -21,15 +22,15 @@
     flex-direction: row;
 }
 
-/*aqui quito el estilo por defecto del texto*/
+
 .estilo_lista_vacio{
     list-style: none;
 }
 
 
-/*aqui coloco el color blanco de la letra y su tamaño*/
+
 .estilo_bloque{
-    color: white;
+    color: yellowgreen;
     text-decoration: none;
     text-align: center;
     font-size: 1.1rem;
@@ -37,12 +38,12 @@
     display: block;
 }
 
-/*aqui coloco el hover al pasar sonbre el texto*/
+
 .hover:hover{
-    background: #535bf2;
+    background: darkslategrey;
 }
 
-/*aqui coloco que el texto se coloque en el extremo izquierdo y que tenga un margen vertical*/
+
 .padding_lateral{
     padding: 20px;
     display: block;
@@ -51,7 +52,7 @@
 
 
 
-/*especificaciones en tablet*/
+
 
 @media(max-width: 850px){
     .barras{
